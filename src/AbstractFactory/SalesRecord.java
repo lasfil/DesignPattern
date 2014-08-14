@@ -1,5 +1,7 @@
 package AbstractFactory;
 
+import AbstractFactory.employee.Employee;
+
 public class SalesRecord implements Record {
 	private Employee e;
 	private Product p;

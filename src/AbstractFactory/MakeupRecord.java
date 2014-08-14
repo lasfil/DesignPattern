@@ -1,5 +1,8 @@
 package AbstractFactory;
 
+import AbstractFactory.employee.Dresser;
+import AbstractFactory.employee.Employee;
+
 public class MakeupRecord implements Record {
 	private Dresser e;
 	private MakeupProduct p;

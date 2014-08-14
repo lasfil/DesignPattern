@@ -1,4 +1,7 @@
-package AbstractFactory;
+package AbstractFactory.employee;
+
+import AbstractFactory.StyleEmployee;
+
 
 public class Assistant extends StyleEmployee {
 

@@ -1,5 +1,7 @@
 package AbstractFactory;
 
+import AbstractFactory.employee.Employee;
+
 public class SalesRecordFactory implements RecordFactory {
 
 	@Override

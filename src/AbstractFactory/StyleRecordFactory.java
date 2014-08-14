@@ -1,5 +1,10 @@
 package AbstractFactory;
 
+import AbstractFactory.employee.Assistant;
+import AbstractFactory.employee.Designer;
+import AbstractFactory.employee.Employee;
+
+
 public class StyleRecordFactory implements RecordFactory {
 
 	@Override

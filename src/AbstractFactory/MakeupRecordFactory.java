@@ -1,5 +1,8 @@
 package AbstractFactory;
 
+import AbstractFactory.employee.Dresser;
+import AbstractFactory.employee.Employee;
+
 public class MakeupRecordFactory implements RecordFactory {
 
 	@Override

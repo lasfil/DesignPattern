@@ -1,4 +1,4 @@
-package AbstractFactory;
+package AbstractFactory.employee;
 
 public class Dresser implements Employee {
 	private String name;

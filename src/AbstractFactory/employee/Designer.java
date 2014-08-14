@@ -1,4 +1,6 @@
-package AbstractFactory;
+package AbstractFactory.employee;
+
+import AbstractFactory.StyleEmployee;
 
 public class Designer extends StyleEmployee {
 	public String portion;
