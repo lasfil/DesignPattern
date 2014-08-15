@@ -4,7 +4,16 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import AbstractFactory.employee.Designer;
+import AbstractFactory.computor.Computor;
+import AbstractFactory.computor.Operator;
+import AbstractFactory.record.Designer;
+import AbstractFactory.record.Lipstick;
+import AbstractFactory.record.MakeupRecordFactory;
+import AbstractFactory.record.Record;
+import AbstractFactory.record.RecordFactory;
+import AbstractFactory.record.SalesRecordFactory;
+import AbstractFactory.record.StyleRecord;
+import AbstractFactory.record.StyleRecordFactory;
 
 public class AbstractFactoryTest {
 
@@ -29,9 +38,15 @@ public class AbstractFactoryTest {
 		System.out.println(d.portion);
 		
 		RecordFactory mf = new MakeupRecordFactory();
+		//对于客户来说不再关心record的类型，用户只看到统一接口的公共方法setCommission
 		Record makeup = mf.createRecord("dresser", 3, null, null);
 		makeup.setCommission();
 
+	}
+	
+	@Test
+	public void computorTest() throws InstantiationException, IllegalAccessException, ClassNotFoundException {
+		new Computor().lanch();
 	}
 
 }
