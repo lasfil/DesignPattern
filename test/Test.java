@@ -12,8 +12,8 @@ public class Test {
 
 	@org.junit.Test
 	public void test() throws ParserConfigurationException {
-		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-		dbf.newDocumentBuilder();
-
+		//DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		//dbf.newDocumentBuilder();
+		System.out.println(System.getProperty("user.dir"));
 	}
 }
