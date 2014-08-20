@@ -24,7 +24,7 @@ public class Client {
 				sqlHandler);
 		
 
-		statement.update();
+		statement.update("f1", "v1");
 		statement.find();
 		
 		((SQLInterface) statement).insert();

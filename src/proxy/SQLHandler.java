@@ -21,6 +21,7 @@ public class SQLHandler implements InvocationHandler {
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args)
 			throws Throwable {
+		System.out.println(proxy.getClass().getFields().length);
 		Object result = null;
 		System.out.println("Transaction start");
 		result = method.invoke(proxyObject, args);

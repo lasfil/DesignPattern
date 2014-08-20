@@ -14,8 +14,8 @@ public class SQLHQLstatement implements SQLInterface, HQLInterface {
 	}
 
 	@Override
-	public void update() {
-		System.out.println("update from");
+	public void update(String f, String v) {
+		System.out.println("update from" + f + v);
 	}
 
 	@Override
