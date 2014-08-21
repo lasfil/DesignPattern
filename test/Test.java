@@ -5,6 +5,8 @@ import java.util.Calendar;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
+import template.AppleCake;
+import template.FruitCake;
 import flyweight.Apple;
 import flyweight.Fruit;
 
@@ -14,6 +16,6 @@ public class Test {
 	public void test() throws ParserConfigurationException {
 		//DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		//dbf.newDocumentBuilder();
-		System.out.println(System.getProperty("user.dir"));
+		FruitCake applecake = new AppleCake();
 	}
 }
